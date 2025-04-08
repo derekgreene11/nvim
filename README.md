@@ -16,7 +16,12 @@ sudo make install
 git clone https://gitlab.com/dwt1/shell-color-scripts.git
 cd shell-color-scripts
 sudo make install
+
+# Install Copilot
+git clone https://github.com/github/copilot.vim.git \
+  ~/.config/nvim/pack/github/start/copilot.vim
 ```
+Start Vim/Neovim and invoke :Copilot setup
 
 ### Nerdfonts for fonts and icons
 [Nerdfonts](https://www.nerdfonts.com/)
