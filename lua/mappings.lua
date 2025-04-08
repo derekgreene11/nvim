@@ -15,3 +15,4 @@ vim.api.nvim_set_keymap('n', '<leader>s', ':split<CR>', { noremap = true, silent
 -- Vertical split with leader+v
 vim.api.nvim_set_keymap('n', '<leader>v', ':vsplit<CR>', { noremap = true, silent = true })
 -- 
+vim.api.nvim_set_keymap('n', '<leader>gg', '<cmd>LazyGit<CR>', { noremap = true, silent = true })

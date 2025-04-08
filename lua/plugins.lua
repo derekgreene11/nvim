@@ -1,6 +1,14 @@
 return { 
   { "github/copilot.vim", lazy = false },
 
+  {
+      "kdheepak/lazygit.nvim",
+      cmd = "LazyGit",
+      dependencies = {
+        "nvim-lua/plenary.nvim",
+      },
+    },
+  
   { "folke/snacks.nvim",
     priority = 1000,  -- Set priority if needed
     lazy = false,  -- Load immediately, no lazy loading
