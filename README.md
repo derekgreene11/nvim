@@ -10,7 +10,18 @@ cd neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
-## Install Custom Configuration & Settings
+## Install Requirements
+```bash
+# Install colorscript for dashboard coloring
+git clone https://gitlab.com/dwt1/shell-color-scripts.git
+cd shell-color-scripts
+sudo make install
+```
+
+### Nerdfonts for fonts and icons
+![Nerdfonts](https://www.nerdfonts.com/)
+
+## Custom Configuration & Settings
 ```bash
 git clone https://github.com/derekgreene11/nvim.git ~/.config/nvim && nvim
 ```
