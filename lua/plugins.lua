@@ -32,8 +32,8 @@ return {
           -- Defaults to a picker that supports `fzf-lua`, `telescope.nvim` and `mini.pick`
           pick = nil,
           keys = {
-            { icon = "󰈞 ", key = "f", desc = "Find File", action = function() vim.cmd("lua Snacks.dashboard.pick('files')") end },
             { icon = "󰈔 ", key = "n", desc = "New File", action = function() vim.cmd("ene | startinsert") end },
+            { icon = "󰈞 ", key = "f", desc = "Find File", action = function() vim.cmd("lua Snacks.dashboard.pick('files')") end },
             { icon = "󰊢 ", key = "g", desc = "Find Text", action = function() vim.cmd("lua Snacks.dashboard.pick('live_grep')") end },
             { icon = "󰋚 ", key = "r", desc = "Recent Files", action = function() vim.cmd("lua Snacks.dashboard.pick('oldfiles')") end },
             { icon = "󰒓 ", key = "c", desc = "Config", action = function() vim.cmd("lua Snacks.dashboard.pick('files', {cwd = vim.fn.stdpath('config')})") end },
