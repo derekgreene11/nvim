@@ -19,7 +19,7 @@ sudo make install
 ```
 
 ### Nerdfonts for fonts and icons
-![Nerdfonts](https://www.nerdfonts.com/)
+[Nerdfonts](https://www.nerdfonts.com/)
 
 ## Custom Configuration & Settings
 ```bash
