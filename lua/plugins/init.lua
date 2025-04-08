@@ -18,21 +18,8 @@ return {
    	opts = {
    		ensure_installed = {
    			"vim", "lua", "vimdoc",
-        "html", "css"
+        "html", "css", "python" 
    		},
    	},
    },
-{
-    "kdheepak/lazygit.nvim",
-    lazy = true,  -- Load lazily
-    cmd = {
-      "LazyGit",
-      "LazyGitConfig",
-      "LazyGitCurrentFile",
-      "LazyGitFilter",
-      "LazyGitFilterCurrentFile",
-    },
-    dependencies = { "nvim-lua/plenary.nvim" },  -- LazyGit depends on plenary.nvim
-    keys = { { "<leader>gg", "<cmd>LazyGit<cr>", desc = "LazyGit" } },  -- Keybinding for LazyGit (Space + gg)
-  },
 }
