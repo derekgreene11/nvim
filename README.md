@@ -21,7 +21,7 @@ sudo make install
 git clone https://github.com/github/copilot.vim.git \
   ~/.config/nvim/pack/github/start/copilot.vim
 ```
-Start Vim/Neovim and invoke :Copilot setup
+Start Neovim and invoke :Copilot setup
 
 ### Nerdfonts for fonts and icons
 [Nerdfonts](https://www.nerdfonts.com/)
