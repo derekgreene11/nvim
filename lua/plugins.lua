@@ -1,6 +1,4 @@
 return { 
-  { "github/copilot.vim", lazy = false },
-
   {
       "kdheepak/lazygit.nvim",
       cmd = "LazyGit",
